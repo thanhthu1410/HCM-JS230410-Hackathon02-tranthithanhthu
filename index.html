@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bai 1 -->
+    <!-- <script>
+        let array1 = [1,11,3,4];
+        let array2 = [7,9,5];
+       function listArray(param1,param2) {
+        let ouput = array1.concat(array2)
+        for (let i=0;i<ouput.length;i++){
+                for (let j = i+1; j < ouput.length; j++){
+                   if(parseInt(ouput[i])>parseInt(ouput[j])){
+                    let a;
+                    a = parseInt(ouput[i]);
+                    ouput[i] =parseInt(ouput[j]);
+                    ouput[j] = a;
+                   }                  
+                }
+            }
+        console.log(ouput);
+       }
+       listArray(array1,array2)
+        
+    </script> -->
+    <!-- bai 2 -->
+    <!-- <script>
+        let inputArray = [6,3,5,4,2];
+        let target = 7;
+        function listNumber(param1, target) {
+            let ouput = [];
+             for (let i=0;i<inputArray.length;i++){
+                for (let j = i+1; j < inputArray.length; j++) {
+                    if((parseInt(inputArray[i]) + parseInt(inputArray[j])) === target){
+                        ouput.push(i,j)
+                        console.log(ouput);
+                        break ;
+                    }
+                }
+            }    
+        }
+        listNumber(inputArray,target)
+    </script> -->
+
+    <!--  bai 3  -->
+    <!-- <script>
+        let inputArray = ["thu", "thuong", "theung"]
+        function listArray(str) {
+            if (str.length === 0) {
+                return "";
+            }
+            let result = "";
+            for (let i = 0; i < str.length; i++) {
+                let first = str[0][i];
+                for (let j = 1; j < str.length; j++) {
+                    if (i >= str[j].length || str[j][i] !== first) {
+                        return result;
+                    }
+                }
+                result += first;
+            }
+            return result;
+        }
+        const ketqua = listArray(inputArray);
+        if (ketqua == "") {
+            alert("Khong co gia tri thoa man")
+        } else {
+            console.log(`Gia tri giong nhau la: ${ketqua}`);
+        }
+    </script> -->
+</body>
+
+</html>
